@@ -1,0 +1,84 @@
+body {
+    background-color: #232323;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    height: 150px;
+    padding-top: 20px;
+    font-size: 30px;
+    line-height: 1.1;
+    background-color: steelblue;
+}
+
+span {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#winningColor {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: purple;
+    margin: 1.66%;
+    border-radius: 30px;
+    transition: background 0.6s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+}
+
+.selected {
+    background-color: steelblue;
+    color: white;
+}
+
+button {
+    color: steelblue;
+    height: 100%;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    outline: 0;
+}
+
+button:hover {
+    background-color: steelblue;
+    color: white;
+}
